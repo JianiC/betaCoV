@@ -3,7 +3,7 @@
   "maintainers": [
     {"name": "Jiani Chen", "url": "https://bahl-lab.github.io/"}
   ],
-  "build_url": "https://github.com/JianiC/Beta_CoV",
+  "build_url": "https://github.com/JianiC/betaCoV",
   "colorings": [
     {
       "key": "gt",
@@ -47,7 +47,8 @@
   ],
   "panels": [
      "tree",
-     "map"
+     "map",
+     "entropy"
   ],
   "display_defaults": {
     "map_triplicate": true
