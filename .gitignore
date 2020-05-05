@@ -1,1 +1,7 @@
 **/*.fasta
+**/*.tab
+.Rproj.user
+
+#ignore data and result from auspice build
+**/data/
+**/results/

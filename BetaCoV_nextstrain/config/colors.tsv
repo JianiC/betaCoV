@@ -1,0 +1,112 @@
+country	Australia	#B3DE69 
+country	Bangladesh	#E31A1C 
+country	Brazil	#DECBE4 
+country	Bulgaria	#CCEBC5 
+country	Burkina Faso	#BC80BD 
+country	China	#FC8D62 
+country	Cote d'Ivoire	#D95F02 
+country	Egypt	#66A61E 
+country	Ethiopia	#FFFF99
+country	Finland	#A6CEE3 
+country	France	#666666 
+country	Germany	#CCCCCC 
+country	Hong Kong	#BEAED4 
+country	India	#B3E2CD 
+country	Israel	#FF7F00 
+country	Italy	#FED9A6 
+country	Japan	#7570B3 
+country	Jordan	#F2F2F2
+country	Kenya	#BEBADA 
+country	Malaysia	#FFD92F 
+country	Mexico	#666666 
+country	Morocco	#FFFF99 
+country	Nepal	#B3B3B3 
+country	Nigeria	#CCEBC5 
+country	Oman	#A65628 
+country	Qatar	#FFFFCC 
+country	Saudi Arabia	#FCCDE5 
+country	South Africa	#B3CDE3 
+country	South Korea	#FFED6F 
+country	Spain	#FFFF33 
+country	Sweden	#F1E2CC 
+country	Taiwan	#E5C494 
+country	Thailand	#FDB462 
+country	USA	#1F78B4 
+country	Uganda	#33A02C 
+country	United Arab Emirates	#377EB8 
+country	United Kingdom	#B15928 
+country	Viet Nam	#BF5B17
+species	Bat SARS Cov	#8DD3C7 
+species	Bat betacoronavirus	#E78AC3 
+species	Betacoronavirus 1	#FBB4AE 
+species	Betacoronavirus sp.	#FDDAEC 
+species	Camel coronavirus HKU23	#B15928 
+species	China Rattus coronavirus HKU24	#999999 
+species	Erinaceus hedgehog coronavirus HKU31	#7570B3 
+species	Hedgehog coronavirus 1	#666666 
+species	Human coronavirus HKU1	#E31A1C 
+species	Hypsugo bat coronavirus HKU25	#BF5B17 
+species	Longquan Aa mouse coronavirus	#6A3D9A 
+species	Longquan Rl rat coronavirus	#F4CAE4 
+species	Middle East respiratory syndrome-related coronavirus	#E41A1C 
+species	Murine coronavirus	#A6CEE3 
+species	Pangolin coronavirus	#E6F5C9 
+species	Pipistrellus bat coronavirus HKU5	#FDBF6F 
+species	Rabbit coronavirus HKU14	#FB8072 
+species	Rousettus bat coronavirus GCCDC1	#66A61E 
+species	Rousettus bat coronavirus HKU9	#BC80BD 
+species	SARS-CoV-2	#FF7F00 
+species	Severe acute respiratory syndrome-related coronavirus	#FFFFCC 
+species	Tylonycteris bat coronavirus HKU4	#BEBADA 
+species	Unclassified betacoronavirus	#FED9A6
+host	Apodemus agrarius	#F4CAE4 
+host	Aselliscus stoliczkanus	#377EB8 
+host	Bos grunniens	#CCEBC5 
+host	Bos taurus	#FFFF99 
+host	Bubalus bubalis	#A65628 
+host	Camelus	#FCCDE5 
+host	Camelus bactrianus	#E6AB02 
+host	Camelus dromedarius	#999999 
+host	Canis lupus familiaris	#E7298A
+host	Chaerephon plicatus	#FFF2AE 
+host	Chiroptera	#B3B3B3 
+host	Chlorocebus aethiops	#4DAF4A 
+host	Equus caballus	#386CB0 
+host	Erinaceus amurensis	#8DA0CB 
+host	Erinaceus europaeus	#B2DF8A 
+host	Hipposideros commersoni	#BC80BD 
+host	Hipposideros pratti	#984EA3 
+host	Homo sapiens	#D9D9D9
+host	Hydropotes inermis	#FC8D62 
+host	Hypsugo pulveratus	#33A02C 
+host	Hypsugo savii	#CCEBC5 
+host	Kobus ellipsiprymnus	#FFFF99 
+host	Manis javanica	#BEBADA 
+host	Mus musculus	#FDC086 
+host	Neoromicia capensis	#CBD5E8 
+host	Niviventer confucianus	#666666 
+host	Odocoileus virginianus	#F2F2F2
+host	Oryctolagus cuniculus	#B15928 
+host	Pan troglodytes verus	#DECBE4 
+host	Pholidota	#FFED6F 
+host	Pipistrellus abramus	#E5D8BD 
+host	Pipistrellus kuhlii	#A6D854 
+host	Rattus argentiventer	#1F78B4 
+host	Rattus losea	#66C2A5 
+host	Rattus norvegicus	#FED9A6 
+host	Rattus sp.	#E6F5C9 
+host	Rattus tanezumi	#7FC97F 
+host	Rhinolophus	#E78AC3 
+host	Rhinolophus affinis	#B3CDE3 
+host	Rhinolophus blasii	#66A61E 
+host	Rhinolophus ferrumequinum	#666666 
+host	Rhinolophus monoceros	#FBB4AE 
+host	Rhinolophus pusillus	#FDCDAC 
+host	Rhinolophus rex	#FDBF6F 
+host	Rhinolophus sinicus	#FFD92F 
+host	Rousettus leschenaultii	#FF7F00 
+host	Rousettus sp.	#FDDAEC 
+host	Rusa unicolor	#FFFFCC 
+host	Sus scrofa	#80B1D3 
+host	Sus scrofa scrofa	#E41A1C 
+host	Tylonycteris pachypus	#FB8072
