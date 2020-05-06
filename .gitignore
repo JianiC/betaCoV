@@ -1,5 +1,7 @@
 **/*.fasta
 **/*.tab
+**/*.tsv
+**/*.csv
 .Rproj.user
 
 #ignore data and result from auspice build
