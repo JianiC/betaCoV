@@ -2,6 +2,7 @@
 **/*.tab
 **/*.tsv
 **/*.csv
+**/*.gb
 .Rproj.user
 
 #ignore data and result from auspice build
