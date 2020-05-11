@@ -1,0 +1,9 @@
+name	accession	length	submission_date	host	country_original	country	countrycode	collection_original	collection_date	isolate	note
+JQ065044	JQ065044	26041	2012-03-19	white-eye	China: Hong Kong	China	CHN	2007	2007	HKU16-6847	NA
+JQ065045	JQ065045	26083	2012-03-19	sparrow	China: Hong Kong	China	CHN	2007	2007	HKU17-6124	NA
+JQ065046	JQ065046	26689	2012-03-19	magpie-robin	China: Hong Kong	China	CHN	2007	2007	HKU18-chu3	NA
+JQ065047	JQ065047	26077	2012-03-19	night-heron	China: Hong Kong	China	CHN	2007	2007	HKU19-6918	NA
+JQ065048	JQ065048	26227	2012-03-19	wigeon	China: Hong Kong	China	CHN	2008	2008	HKU20-9243	NA
+JQ065049	JQ065049	26223	2012-03-19	common moorhen	China: Hong Kong	China	CHN	2007	2007	HKU21-8295	NA
+JQ065042	JQ065042	25430	2016-05-13	pig	China: Hong Kong	China	CHN	2009	2009	HKU15-44	NA
+JQ065043	JQ065043	25425	2016-05-13	pig	China: Hong Kong	China	CHN	2010	2010	HKU15-155	NA
