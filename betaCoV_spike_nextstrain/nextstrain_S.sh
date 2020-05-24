@@ -15,10 +15,20 @@ augur filter \
   
 augur align \
   --sequences results/filtered.fasta \
-  --reference-sequence config/betaCoV_outgroup.gb \
+  --reference-sequence config/betaCoV_spike.gb \
+  --output results/aligned.fasta \
+  --fill-gaps  
+
+
+augur align \
+  --sequences results/filtered.fasta \
   --output results/aligned.fasta \
   --fill-gaps  
   
+
+
+
+
  
 augur tree \
   --alignment results/aligned.fasta \
@@ -55,7 +65,7 @@ augur ancestral \
 augur translate \
   --tree results/tree.nwk \
   --ancestral-sequences results/nt_muts.json \
-  --reference-sequence config/betaCoV_outgroup.gb \
+  --reference-sequence config/betaCoV_spike.gb \
   --output results/aa_muts.json  
   
   
@@ -69,7 +79,7 @@ augur translate \
   --colors config/colors.tsv \
   --lat-longs config/lat_longs.tsv \
   --auspice-config config/auspice_config.json \
-  --output auspice/betaCoV.json 
+  --output auspice/betaCoV_S.json 
   
   
   
