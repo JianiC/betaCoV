@@ -1,0 +1,9 @@
+Weights from alignment method 1 (karplus), b=-1.000000, e=0.500000
+% Method: karplus (1)  Bits to save: -1.000000 Exponent 0.500000
+% 2 sequences with 31491 columns
+% total weight limited to 2.000000
+% total_weight: 1.414214 
+2	1
+% ID	Weight
+NC_025217.1_|Bat_Hp-betacoronavirus_Zhejiang2013	0.707107
+KF636752.1_|Bat_Hp-betacoronavirus_Zhejiang2013	0.707107

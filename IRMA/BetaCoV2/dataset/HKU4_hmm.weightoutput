@@ -1,0 +1,18 @@
+Weights from alignment method 1 (karplus), b=-1.000000, e=0.500000
+% Method: karplus (1)  Bits to save: -1.000000 Exponent 0.500000
+% 11 sequences with 30341 columns
+% total weight limited to 11.000000
+% total_weight: 3.316625 
+11	1
+% ID	Weight
+NC_009019.1_|Tylonycteris_bat_coronavirus_HKU4	0.292746
+EF065505.1_|Tylonycteris_bat_coronavirus_HKU4	0.292746
+EF065506.1_|Tylonycteris_bat_coronavirus_HKU4	0.292702
+EF065507.1_|Tylonycteris_bat_coronavirus_HKU4	0.292763
+EF065508.1_|Tylonycteris_bat_coronavirus_HKU4	0.295466
+KJ473822.1_|Tylonycteris_bat_coronavirus_HKU4	0.303995
+MH002337.1_|Tylonycteris_bat_coronavirus_HKU4	0.307490
+MH002338.1_|Tylonycteris_bat_coronavirus_HKU4	0.308130
+MH002339.1_|Tylonycteris_bat_coronavirus_HKU4	0.302739
+DQ648794.1_|Tylonycteris_bat_coronavirus_HKU4	0.317745
+MN611519.1_|Tylonycteris_pachypus_bat_coronavirus_HKU4-related	0.310103

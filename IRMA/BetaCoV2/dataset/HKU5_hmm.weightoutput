@@ -1,0 +1,16 @@
+Weights from alignment method 1 (karplus), b=-1.000000, e=0.500000
+% Method: karplus (1)  Bits to save: -1.000000 Exponent 0.500000
+% 9 sequences with 30591 columns
+% total weight limited to 9.000000
+% total_weight: 3.000000 
+9	1
+% ID	Weight
+NC_009020.1_|Pipistrellus_bat_coronavirus_HKU5	0.330621
+EF065509.1_|Pipistrellus_bat_coronavirus_HKU5	0.330621
+EF065510.1_|Pipistrellus_bat_coronavirus_HKU5	0.324578
+EF065511.1_|Pipistrellus_bat_coronavirus_HKU5	0.324638
+EF065512.1_|Pipistrellus_bat_coronavirus_HKU5	0.324453
+KJ473820.1_|Pipistrellus_bat_coronavirus_HKU5	0.337652
+MH002342.1_|Pipistrellus_bat_coronavirus_HKU5	0.347145
+MH002340.1_|Pipistrellus_bat_coronavirus_HKU5	0.344610
+MH002341.1_|Pipistrellus_bat_coronavirus_HKU5	0.335681
