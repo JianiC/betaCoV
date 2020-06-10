@@ -1,0 +1,13 @@
+Weights from alignment method 1 (karplus), b=-1.000000, e=0.500000
+% Method: karplus (1)  Bits to save: -1.000000 Exponent 0.500000
+% 6 sequences with 30162 columns
+% total weight limited to 6.000000
+% total_weight: 2.449490 
+6	1
+% ID	Weight
+KU762337.1_|Rousettus_bat_coronavirus_GCCDC1	0.413051
+NC_030886.1_|Rousettus_bat_coronavirus_GCCDC1	0.405847
+KU762338.1_|Rousettus_bat_coronavirus_GCCDC1	0.405847
+KU762337.1_|Rousettus_bat_coronavirus_GCCDC1_2	0.413051
+NC_030886.1_|Rousettus_bat_coronavirus_GCCDC1_2	0.405847
+KU762338.1_|Rousettus_bat_coronavirus_GCCDC1_2	0.405847
