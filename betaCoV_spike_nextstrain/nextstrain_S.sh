@@ -55,7 +55,7 @@ augur traits \
   --confidence  
  
 
-augur ancestral \
+AUGUR_RECURSION_LIMIT=10000 augur ancestral \
   --tree results/tree.nwk \
   --alignment results/aligned.fasta \
   --output-node-data results/nt_muts.json \
@@ -82,7 +82,10 @@ augur translate \
   --output auspice/betaCoV_S.json 
   
   
-  
+AUGUR_RECURSION_LIMIT=10000 augur tree --alignment ~{aligned_fasta} \
+            --output ~{basename}_raw_tree.nwk \
+            --method ~{default="iqtree" method} \
+            --substitution-model ~{default="GTR" substitution_model} \  
 
   
   
