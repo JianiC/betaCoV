@@ -1,0 +1,34 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	align
+	1	all
+	1	ancestral
+	1	export
+	1	refine
+	1	traits
+	1	translate
+	1	tree
+	8
+
+[Sat Nov 13 04:57:09 2021]
+Job 7: 
+        Aligning sequences to config/SARS-CoV-2.gb
+          - filling gaps with N
+        
+
+[Sat Nov 13 04:57:12 2021]
+Finished job 7.
+1 of 8 steps (12%) done
+
+[Sat Nov 13 04:57:12 2021]
+Job 6: Building tree
+
+[Sat Nov 13 04:57:13 2021]
+Finished job 6.
+2 of 8 steps (25%) done
+RuleException in line 45 of /nextstrain/build/Snakefile:
+'Params' object has no attribute 'clock_filter_iqd'

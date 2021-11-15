@@ -1,0 +1,1062 @@
+{
+  "meta": {
+    "build_url": "https://github.com/JianiC",
+    "colorings": [
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Date",
+        "type": "continuous"
+      },
+      {
+        "key": "county",
+        "title": "County",
+        "type": "categorical"
+      },
+      {
+        "key": "gender",
+        "title": "Gender",
+        "type": "categorical"
+      },
+      {
+        "key": "age range",
+        "title": "Age",
+        "type": "categorical"
+      },
+      {
+        "key": "Source",
+        "scale": [
+          [
+            "Augusta Univ",
+            "#edf8b1"
+          ]
+        ],
+        "title": "Source",
+        "type": "categorical"
+      },
+      {
+        "key": "specimen source",
+        "scale": [
+          [
+            "Nasopharyngeal Swab",
+            "#FB9A99"
+          ]
+        ],
+        "title": "Specimen source",
+        "type": "categorical"
+      }
+    ],
+    "display_defaults": {
+      "map_triplicate": true
+    },
+    "filters": [
+      "county",
+      "gender",
+      "age range",
+      "specimen source",
+      "Source"
+    ],
+    "genome_annotations": {
+      "E": {
+        "end": 26472,
+        "seqid": "config/SARS-CoV-2.gb",
+        "start": 26245,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "M": {
+        "end": 27191,
+        "seqid": "config/SARS-CoV-2.gb",
+        "start": 26523,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "N": {
+        "end": 29533,
+        "seqid": "config/SARS-CoV-2.gb",
+        "start": 28274,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF10": {
+        "end": 29674,
+        "seqid": "config/SARS-CoV-2.gb",
+        "start": 29558,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF3a": {
+        "end": 26220,
+        "seqid": "config/SARS-CoV-2.gb",
+        "start": 25393,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF6": {
+        "end": 27387,
+        "seqid": "config/SARS-CoV-2.gb",
+        "start": 27202,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF7a": {
+        "end": 27759,
+        "seqid": "config/SARS-CoV-2.gb",
+        "start": 27394,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF8": {
+        "end": 28259,
+        "seqid": "config/SARS-CoV-2.gb",
+        "start": 27894,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "S": {
+        "end": 25384,
+        "seqid": "config/SARS-CoV-2.gb",
+        "start": 21563,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 29903,
+        "seqid": "config/SARS-CoV-2.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      },
+      "orf1ab": {
+        "end": 21555,
+        "seqid": "config/SARS-CoV-2.gb",
+        "start": 266,
+        "strand": "+",
+        "type": "CDS"
+      }
+    },
+    "geo_resolutions": [
+      {
+        "demes": {
+          "Charlton": {
+            "latitude": 30.8775388,
+            "longitude": -82.1185847
+          },
+          "Colquitt": {
+            "latitude": 31.1803601,
+            "longitude": -83.7696152
+          },
+          "Dougherty": {
+            "latitude": 31.5426984,
+            "longitude": -84.1960829
+          },
+          "Fulton": {
+            "latitude": 34.0580391,
+            "longitude": -84.2961283
+          },
+          "Hancock": {
+            "latitude": 32.859614,
+            "longitude": -83.719742
+          }
+        },
+        "key": "county"
+      }
+    ],
+    "maintainers": [
+      {
+        "name": "Jiani Chen",
+        "url": "https://bahl-lab.github.io/"
+      }
+    ],
+    "panels": [
+      "tree",
+      "map",
+      "entropy"
+    ],
+    "title": "Nextstrain build for SARS-COV-2 in GA ",
+    "updated": "2021-11-13"
+  },
+  "tree": {
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "labels": {
+            "aa": "M: E18G; N: P67R, A208G; ORF3a: L129P; ORF8: V62L, L84S; S: D364Y, K378N, C379R, M1229V; orf1ab: D75E, V86F, P971L, T2007I, I2369R, M4071I, F6158L"
+          },
+          "mutations": {
+            "M": [
+              "E18G"
+            ],
+            "N": [
+              "P67R",
+              "A208G"
+            ],
+            "ORF3a": [
+              "L129P"
+            ],
+            "ORF8": [
+              "V62L",
+              "L84S"
+            ],
+            "S": [
+              "D364Y",
+              "K378N",
+              "C379R",
+              "M1229V"
+            ],
+            "nuc": [
+              "T490A",
+              "G521T",
+              "C3177T",
+              "C6040T",
+              "C6285T",
+              "T7371G",
+              "T7372A",
+              "C8782T",
+              "C12403T",
+              "G12478A",
+              "T18736C",
+              "T22651C",
+              "G22652T",
+              "G22696T",
+              "T22697C",
+              "C24034T",
+              "A25247G",
+              "T25778C",
+              "T25779C",
+              "A26575G",
+              "T26729C",
+              "G28077C",
+              "T28144C",
+              "C28473G",
+              "C28896G",
+              "A29700G"
+            ],
+            "orf1ab": [
+              "D75E",
+              "V86F",
+              "P971L",
+              "T2007I",
+              "I2369R",
+              "M4071I",
+              "F6158L"
+            ]
+          }
+        },
+        "name": "193_Run_299_E2|5/22/20|GA|Fulton|Male|50|Nasopharyngeal_Swab",
+        "node_attrs": {
+          "Source": {
+            "value": "Augusta Univ"
+          },
+          "age range": {
+            "value": "40-49"
+          },
+          "county": {
+            "confidence": {
+              "Fulton": 1.0
+            },
+            "entropy": -1.000088900581841e-12,
+            "value": "Fulton"
+          },
+          "div": 0.0006026248061588563,
+          "gender": {
+            "value": "Male"
+          },
+          "num_date": {
+            "confidence": [
+              2020.389344262295,
+              2020.389344262295
+            ],
+            "value": 2020.389344262295
+          },
+          "specimen source": {
+            "value": "Nasopharyngeal Swab"
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "name": "MN908947.3",
+            "node_attrs": {
+              "county": {
+                "confidence": {
+                  "Colquitt": 0.35245679856935747,
+                  "Dougherty": 0.12641337306276618,
+                  "Fulton": 0.2841418315121948,
+                  "Hancock": 0.11925361507954796
+                },
+                "entropy": 1.4919950750563522,
+                "value": "Colquitt"
+              },
+              "div": 0.00026726681726555384,
+              "num_date": {
+                "confidence": [
+                  2020.001985203896,
+                  2020.3362834232855
+                ],
+                "value": 2020.2585693029932
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "S: D614G; orf1ab: P4715L"
+              },
+              "mutations": {
+                "S": [
+                  "D614G"
+                ],
+                "nuc": [
+                  "C241T",
+                  "C3037T",
+                  "C14408T",
+                  "A23403G"
+                ],
+                "orf1ab": [
+                  "P4715L"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "N: R203K, G204R"
+                  },
+                  "mutations": {
+                    "N": [
+                      "R203K",
+                      "G204R"
+                    ],
+                    "nuc": [
+                      "G28881A",
+                      "G28882A",
+                      "G28883C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C15579T"
+                        ]
+                      }
+                    },
+                    "name": "195_Run_301_F3|5/22/20|GA|Colquitt|Female|29|Nasopharyngeal_Swab",
+                    "node_attrs": {
+                      "Source": {
+                        "value": "Augusta Univ"
+                      },
+                      "age range": {
+                        "value": "18-29"
+                      },
+                      "county": {
+                        "confidence": {
+                          "Colquitt": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Colquitt"
+                      },
+                      "div": 0.0005348219013653679,
+                      "gender": {
+                        "value": "Female"
+                      },
+                      "num_date": {
+                        "confidence": [
+                          2020.389344262295,
+                          2020.389344262295
+                        ],
+                        "value": 2020.389344262295
+                      },
+                      "specimen source": {
+                        "value": "Nasopharyngeal Swab"
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "ORF3a: W45R; ORF7a: V93F; ORF8: A65S; orf1ab: S3983F, A6533V"
+                      },
+                      "mutations": {
+                        "ORF3a": [
+                          "W45R"
+                        ],
+                        "ORF7a": [
+                          "V93F"
+                        ],
+                        "ORF8": [
+                          "A65S"
+                        ],
+                        "nuc": [
+                          "C313T",
+                          "C6196T",
+                          "T8278C",
+                          "C12213T",
+                          "C17934T",
+                          "C19862T",
+                          "T25525C",
+                          "G27670T",
+                          "G28086T",
+                          "T28711A"
+                        ],
+                        "orf1ab": [
+                          "S3983F",
+                          "A6533V"
+                        ]
+                      }
+                    },
+                    "name": "206_Run_312_A8|5/23/20|GA|Colquitt|Male|30|Nasopharyngeal_Swab",
+                    "node_attrs": {
+                      "Source": {
+                        "value": "Augusta Univ"
+                      },
+                      "age range": {
+                        "value": "18-29"
+                      },
+                      "county": {
+                        "confidence": {
+                          "Colquitt": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Colquitt"
+                      },
+                      "div": 0.0008359081206244423,
+                      "gender": {
+                        "value": "Male"
+                      },
+                      "num_date": {
+                        "confidence": [
+                          2020.3920765027322,
+                          2020.3920765027322
+                        ],
+                        "value": 2020.3920765027322
+                      },
+                      "specimen source": {
+                        "value": "Nasopharyngeal Swab"
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000002",
+                "node_attrs": {
+                  "county": {
+                    "confidence": {
+                      "Charlton": 0.009264121601306272,
+                      "Colquitt": 0.9458658175989658,
+                      "Dougherty": 0.013572485246054856,
+                      "Fulton": 0.024238283463439578
+                    },
+                    "entropy": 0.27950014688916536,
+                    "value": "Colquitt"
+                  },
+                  "div": 0.0005013786317823089,
+                  "num_date": {
+                    "confidence": [
+                      2020.2798504994098,
+                      2020.366775601423
+                    ],
+                    "value": 2020.3299119286232
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "ORF3a: Q57H"
+                  },
+                  "mutations": {
+                    "ORF3a": [
+                      "Q57H"
+                    ],
+                    "nuc": [
+                      "G25563T"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "ORF3a: A51S; orf1ab: N178S, P5853L, V6462L"
+                      },
+                      "mutations": {
+                        "ORF3a": [
+                          "A51S"
+                        ],
+                        "nuc": [
+                          "A798G",
+                          "C17822T",
+                          "C18877T",
+                          "G19648T",
+                          "G25543T"
+                        ],
+                        "orf1ab": [
+                          "N178S",
+                          "P5853L",
+                          "V6462L"
+                        ]
+                      }
+                    },
+                    "name": "196_Run_301_G1|5/22/20|GA|Colquitt|Female|32|Nasopharyngeal_Swab",
+                    "node_attrs": {
+                      "Source": {
+                        "value": "Augusta Univ"
+                      },
+                      "age range": {
+                        "value": "30-39"
+                      },
+                      "county": {
+                        "confidence": {
+                          "Colquitt": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12,
+                        "value": "Colquitt"
+                      },
+                      "div": 0.0006017192625800492,
+                      "gender": {
+                        "value": "Female"
+                      },
+                      "num_date": {
+                        "confidence": [
+                          2020.389344262295,
+                          2020.389344262295
+                        ],
+                        "value": 2020.389344262295
+                      },
+                      "specimen source": {
+                        "value": "Nasopharyngeal Swab"
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "orf1ab: T265I"
+                      },
+                      "mutations": {
+                        "nuc": [
+                          "C1059T"
+                        ],
+                        "orf1ab": [
+                          "T265I"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "ORF8: S24L; orf1ab: S5362L, N5370T, T6949I"
+                          },
+                          "mutations": {
+                            "ORF8": [
+                              "S24L"
+                            ],
+                            "nuc": [
+                              "T7153C",
+                              "C16349T",
+                              "A16373C",
+                              "C21110T",
+                              "C27964T",
+                              "C28846T"
+                            ],
+                            "orf1ab": [
+                              "S5362L",
+                              "N5370T",
+                              "T6949I"
+                            ]
+                          }
+                        },
+                        "name": "197_Run_301_G11|5/22/20|GA|Colquitt|Male|20|Nasopharyngeal_Swab",
+                        "node_attrs": {
+                          "Source": {
+                            "value": "Augusta Univ"
+                          },
+                          "age range": {
+                            "value": "18-29"
+                          },
+                          "county": {
+                            "confidence": {
+                              "Colquitt": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12,
+                            "value": "Colquitt"
+                          },
+                          "div": 0.0006686192626187811,
+                          "gender": {
+                            "value": "Male"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2020.389344262295,
+                              2020.389344262295
+                            ],
+                            "value": 2020.389344262295
+                          },
+                          "specimen source": {
+                            "value": "Nasopharyngeal Swab"
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "N: P207S"
+                          },
+                          "mutations": {
+                            "N": [
+                              "P207S"
+                            ],
+                            "nuc": [
+                              "C28892T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T17769C"
+                                ]
+                              }
+                            },
+                            "name": "199_Run_307_A5|5/23/20|GA|Dougherty|Female|47|Nasopharyngeal_Swab",
+                            "node_attrs": {
+                              "Source": {
+                                "value": "Augusta Univ"
+                              },
+                              "age range": {
+                                "value": "40-49"
+                              },
+                              "county": {
+                                "confidence": {
+                                  "Dougherty": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "Dougherty"
+                              },
+                              "div": 0.0005348154119637704,
+                              "gender": {
+                                "value": "Female"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2020.3920765027322,
+                                  2020.3920765027322
+                                ],
+                                "value": 2020.3920765027322
+                              },
+                              "specimen source": {
+                                "value": "Nasopharyngeal Swab"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "200_Run_307_A11|5/23/20|GA|Dougherty|Male|29|Nasopharyngeal_Swab",
+                            "node_attrs": {
+                              "Source": {
+                                "value": "Augusta Univ"
+                              },
+                              "age range": {
+                                "value": "18-29"
+                              },
+                              "county": {
+                                "confidence": {
+                                  "Dougherty": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12,
+                                "value": "Dougherty"
+                              },
+                              "div": 0.0005013721308007911,
+                              "gender": {
+                                "value": "Male"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2020.3920765027322,
+                                  2020.3920765027322
+                                ],
+                                "value": 2020.3920765027322
+                              },
+                              "specimen source": {
+                                "value": "Nasopharyngeal Swab"
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000006",
+                        "node_attrs": {
+                          "county": {
+                            "confidence": {
+                              "Charlton": 0.009981021046109572,
+                              "Colquitt": 0.08608512921927938,
+                              "Dougherty": 0.8839898086673921,
+                              "Fulton": 0.012848296232054414
+                            },
+                            "entropy": 0.45716465370582704,
+                            "value": "Dougherty"
+                          },
+                          "div": 0.0005013721308007779,
+                          "num_date": {
+                            "confidence": [
+                              2020.3602126277224,
+                              2020.3909435072544
+                            ],
+                            "value": 2020.3813258108473
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "orf1ab: S3884L, A6245V"
+                          },
+                          "mutations": {
+                            "nuc": [
+                              "C11916T",
+                              "C18998T"
+                            ],
+                            "orf1ab": [
+                              "S3884L",
+                              "A6245V"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "N: E367K; ORF3a: S40L, F43L"
+                              },
+                              "mutations": {
+                                "N": [
+                                  "E367K"
+                                ],
+                                "ORF3a": [
+                                  "S40L",
+                                  "F43L"
+                                ],
+                                "nuc": [
+                                  "T21324C",
+                                  "C25511T",
+                                  "C25521G",
+                                  "G29372A"
+                                ]
+                              }
+                            },
+                            "name": "205_Run_311_F12|5/23/20|GA|Charlton|Female|56|Nasopharyngeal_Swab",
+                            "node_attrs": {
+                              "Source": {
+                                "value": "Augusta Univ"
+                              },
+                              "age range": {
+                                "value": "50-59"
+                              },
+                              "county": {
+                                "confidence": {
+                                  "Charlton": 0.9999999999999999
+                                },
+                                "entropy": -9.99866855976916e-13,
+                                "value": "Charlton"
+                              },
+                              "div": 0.000668609848354538,
+                              "gender": {
+                                "value": "Female"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2020.3920765027322,
+                                  2020.3920765027322
+                                ],
+                                "value": 2020.3920765027322
+                              },
+                              "specimen source": {
+                                "value": "Nasopharyngeal Swab"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "ORF3a: Q185H"
+                              },
+                              "mutations": {
+                                "ORF3a": [
+                                  "Q185H"
+                                ],
+                                "nuc": [
+                                  "G25947C",
+                                  "G29540A"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "194_Run_299_F10|5/22/20|GA|Fulton|Male|34|Nasopharyngeal_Swab",
+                                "node_attrs": {
+                                  "Source": {
+                                    "value": "Augusta Univ"
+                                  },
+                                  "age range": {
+                                    "value": "30-39"
+                                  },
+                                  "county": {
+                                    "confidence": {
+                                      "Fulton": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "Fulton"
+                                  },
+                                  "div": 0.000601709111381275,
+                                  "gender": {
+                                    "value": "Male"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.389344262295,
+                                      2020.389344262295
+                                    ],
+                                    "value": 2020.389344262295
+                                  },
+                                  "specimen source": {
+                                    "value": "Nasopharyngeal Swab"
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "M: A83S; S: I1114V"
+                                  },
+                                  "mutations": {
+                                    "M": [
+                                      "A83S"
+                                    ],
+                                    "S": [
+                                      "I1114V"
+                                    ],
+                                    "nuc": [
+                                      "A24902G",
+                                      "G26769T"
+                                    ]
+                                  }
+                                },
+                                "name": "202_Run_308_H4|5/23/20|GA|Hancock|Female|32|Nasopharyngeal_Swab",
+                                "node_attrs": {
+                                  "Source": {
+                                    "value": "Augusta Univ"
+                                  },
+                                  "age range": {
+                                    "value": "30-39"
+                                  },
+                                  "county": {
+                                    "confidence": {
+                                      "Hancock": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12,
+                                    "value": "Hancock"
+                                  },
+                                  "div": 0.000668599146090404,
+                                  "gender": {
+                                    "value": "Female"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.3920765027322,
+                                      2020.3920765027322
+                                    ],
+                                    "value": 2020.3920765027322
+                                  },
+                                  "specimen source": {
+                                    "value": "Nasopharyngeal Swab"
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000008",
+                            "node_attrs": {
+                              "county": {
+                                "confidence": {
+                                  "Charlton": 0.11186999795651441,
+                                  "Colquitt": 0.1212670394780557,
+                                  "Fulton": 0.39126419591411704,
+                                  "Hancock": 0.340566903392153
+                                },
+                                "entropy": 1.3522865621798013,
+                                "value": "Fulton"
+                              },
+                              "div": 0.0006017091113812618,
+                              "num_date": {
+                                "confidence": [
+                                  2020.3673385343611,
+                                  2020.389344262295
+                                ],
+                                "value": 2020.3802981266026
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000007",
+                        "node_attrs": {
+                          "county": {
+                            "confidence": {
+                              "Charlton": 0.3558106481269237,
+                              "Colquitt": 0.29294167851527103,
+                              "Fulton": 0.1632484765858251,
+                              "Hancock": 0.11773926176641009
+                            },
+                            "entropy": 1.4616892080523027,
+                            "value": "Charlton"
+                          },
+                          "div": 0.0005348176093513727,
+                          "num_date": {
+                            "confidence": [
+                              2020.333476375603,
+                              2020.3747516538615
+                            ],
+                            "value": 2020.3552756779202
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000004",
+                    "node_attrs": {
+                      "county": {
+                        "confidence": {
+                          "Charlton": 0.05047363814351602,
+                          "Colquitt": 0.7395187418558367,
+                          "Dougherty": 0.14614304764893465,
+                          "Fulton": 0.04415102446463704
+                        },
+                        "entropy": 0.8701030081086457,
+                        "value": "Colquitt"
+                      },
+                      "div": 0.00046792882991559154,
+                      "num_date": {
+                        "confidence": [
+                          2020.3095410501528,
+                          2020.3617399518616
+                        ],
+                        "value": 2020.3327086875647
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000003",
+                "node_attrs": {
+                  "county": {
+                    "confidence": {
+                      "Charlton": 0.02366650557611503,
+                      "Colquitt": 0.8666677957417105,
+                      "Dougherty": 0.05159675365061428,
+                      "Fulton": 0.04379999480718208
+                    },
+                    "entropy": 0.5632180380712687,
+                    "value": "Colquitt"
+                  },
+                  "div": 0.0004344861975266208,
+                  "num_date": {
+                    "confidence": [
+                      2020.2577427954361,
+                      2020.3517602639433
+                    ],
+                    "value": 2020.3201824990624
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000001",
+            "node_attrs": {
+              "county": {
+                "confidence": {
+                  "Charlton": 0.030735971288439058,
+                  "Colquitt": 0.8001416572749985,
+                  "Dougherty": 0.04559809645557838,
+                  "Fulton": 0.09855536251754815
+                },
+                "entropy": 0.7467438294939799,
+                "value": "Colquitt"
+              },
+              "div": 0.00040104335135450356,
+              "num_date": {
+                "confidence": [
+                  2020.1889357812624,
+                  2020.3437254831501
+                ],
+                "value": 2020.302317097705
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000000",
+        "node_attrs": {
+          "county": {
+            "confidence": {
+              "Charlton": 0.07023794015231075,
+              "Colquitt": 0.45771330906935004,
+              "Dougherty": 0.07907105402927835,
+              "Fulton": 0.32323053955368936
+            },
+            "entropy": 1.2956681003579131,
+            "value": "Colquitt"
+          },
+          "div": 0.00026726681726554067,
+          "num_date": {
+            "confidence": [
+              2020.0030192636686,
+              2020.3304821179756
+            ],
+            "value": 2020.2353369715784
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000005",
+    "node_attrs": {
+      "county": {
+        "confidence": {
+          "Colquitt": 0.226419531774462,
+          "Dougherty": 0.06070079851121906,
+          "Fulton": 0.5890380482423957,
+          "Hancock": 0.06433968386235263
+        },
+        "entropy": 1.1625644905798647,
+        "value": "Fulton"
+      },
+      "div": 0,
+      "num_date": {
+        "confidence": [
+          2019.6128767871403,
+          2020.271855752311
+        ],
+        "value": 2020.0868219492093
+      }
+    }
+  },
+  "version": "v2"
+}

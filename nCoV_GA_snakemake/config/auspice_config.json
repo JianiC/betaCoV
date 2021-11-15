@@ -1,0 +1,72 @@
+{
+  "title": "Nextstrain build for SARS-COV-2 in GA ",
+  "maintainers": [
+    {"name": "Jiani Chen", "url": "https://bahl-lab.github.io/"}
+  ],
+  "build_url": "https://github.com/JianiC",
+  "colorings": [
+    {
+      "key": "gt",
+      "title": "Genotype",
+      "type": "categorical"
+    },
+    {
+      "key": "num_date",
+      "title": "Date",
+      "type": "continuous"
+    },
+    {
+      "key": "county",
+      "title": "County",
+      "type": "categorical"
+    },
+    {
+      "key": "gender",
+      "title": "Gender",
+      "type": "categorical"
+    },
+    {
+      "key": "age range",
+      "title": "Age",
+      "type": "categorical"
+    },
+    {
+      "key": "Source",
+      "title": "Source",
+      "type": "categorical"
+    },
+    {
+      "key": "pangolin_lineage",
+      "title": "Pango lineage",
+      "type": "categorical"
+    },
+    {
+      "key": "GISAID_clade",
+      "title": "GISAID clade",
+      "type": "categorical"
+    },
+    {
+      "key": "specimen source",
+      "title": "Specimen source",
+      "type": "categorical"
+    }
+  ],
+  "geo_resolutions": [
+    "county"
+  ],
+  "panels": [
+     "tree",
+     "map",
+     "entropy"
+  ],
+  "display_defaults": {
+    "map_triplicate": true
+  },
+  "filters": [
+    "county",
+    "gender",
+    "age range",
+    "specimen source",
+    "Source"
+  ]
+}
